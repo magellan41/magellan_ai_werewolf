@@ -293,17 +293,17 @@ spring.application.name=AiWerewolf
 
 ### 硬编码配置（可优化为外部配置）
 
-| 配置项           | 位置                        | 当前值                                      |
-|------------------|-----------------------------|---------------------------------------------|
-| AI 模型名称      | `GameSse` / `GameConsole`   | `qwen3-max` / `deepseek-v4-pro`            |
-| 日志输出路径     | `GameSse` / `GameConsole`   | `D:\magellan_data\temp\drama.txt`           |
+| 配置项           | 位置                        | 当前值                                     |
+|------------------|-----------------------------|--------------------------------------------|
+| AI 模型名称      | `GameSse` / `GameConsole`   | `qwen3-max` / `deepseek-v4-pro`           |
+| 日志输出路径     | `GameSse` / `GameConsole`   | `D:\temp\drama.txt`           |
 | 角色与人数配置   | `GameSse` / `GameConsole`   | 7 人固定局（2狼1预言家1女巫3平民）          |
 
 ---
 
 ## 日志输出
 
-游戏完整对话日志输出至：`D:\magellan_data\temp\drama.txt`
+游戏完整对话日志输出至：`D:\temp\drama.txt`
 
 日志包含每轮各玩家的 AI 响应原文，用于复盘分析游戏策略。
 
